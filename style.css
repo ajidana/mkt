@@ -11,6 +11,33 @@ body {
     width: 180px;
 }
 
+.table-info{
+    border: 2px solid #064291;
+    border-radius: 15px;
+    font-size: x-small;
+    padding: 10px 8px;
+    background-color: #FFFFFF;
+    border-collapse: collapse; 
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+    margin: 10px auto;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(122, 8, 8, 0.1);
+}
+
+.table-info th, .table-info td{
+    border: 0.5px solid #ccc;
+    padding: 2px 2px 2px 2px;
+}
+
+.table-info th{
+    background-color: #064291;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+}
+
 .header {
     width: 600px;
     margin-bottom: 20px;
@@ -32,6 +59,15 @@ body {
     border: 1px solid #064291;
     border-radius: 10px;
     padding: 40px 32px;
+}
+
+.zsFormClass td {
+   padding: 11px 10px 11px 0px; 
+}
+
+#zohoSupportWebToCase.table-info {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 #zohoSupportWebToCase input[type='submit'],
@@ -61,9 +97,9 @@ body {
     width: 100%;
 }
 
-#zohoSupportWebToCase td {
+/* #zohoSupportWebToCase td {
     padding: 11px 10px 11px 0px;
-}
+} */
 
 #zohoSupportWebToCase textarea,
 #zohoSupportWebToCase input[type='text'],
